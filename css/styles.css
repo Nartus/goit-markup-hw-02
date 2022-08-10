@@ -173,11 +173,7 @@ letter-spacing: 0.03em;
 background-color:  var(--dark-fon);
 }
 
-/* основной фон страницы портфолио */
-.portfolio-fon {
-  background-color: var(--section-work)
-}
-
+/* текст футера*/
 .footer-text {
   font-style: normal;
 
@@ -201,7 +197,7 @@ color: var(--text-white)
 }
 
 
-/* элементы страницы портфолио */
+/* Элементы страницы портфолио! */
 
 /* заголовки блоков */
 
