@@ -8,12 +8,13 @@
   --text-darkgray: #212121;
   --section-team: #F5F4FA;
   --section-work: #F5F5F5;
-
 }
+
 body {
+  font-family: 'Roboto';
+  font-style: normal;
   background-color: var(--text-white)
   color: var(--text-darkgray)
-  font-family: "Roboto";
 }
 
 a {
@@ -26,7 +27,7 @@ ul {
 
 /* часть логотипа веб-студии */
 
-.logo-one, .logo-two {
+.logo-one, .logo-two, .logo-footer {
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -39,6 +40,10 @@ color: var(--logo-one);
 .logo-two {
 color: var(--logo-two)
 }
+.logo-footer {
+  color: var(--text-white);
+}
+
 
 /* шапка страницы */
 
@@ -162,6 +167,9 @@ color: var(--text-gray);
 
 /* футер и верхний фон */
 .dark-fon {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 background-color:  var(--dark-fon);
 }
 
@@ -170,13 +178,26 @@ background-color:  var(--dark-fon);
   background-color: var(--section-work)
 }
 
+.footer-text {
+  font-style: normal;
+
+}
+
 /* адресс */
 .address {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-text-decoration: none;
 color: var(--text-white) 
+}
+
+.mail-two,
+.phone-two {
+  color: var(--text-white);
+  opacity: 0.6;
+}
+
+.address:hover,:focus,
+.mail-two:hover,:focus,
+.phone-two:hover,:focus {
+  color: var(--logo-one);
 }
 
 
@@ -204,12 +225,12 @@ cursor: pointer;
 color: var(--text-darkgray)
 }
 
-.buttons-portfolio:hover {
-background-color: var(--logo-one);
-}
+.buttons-portfolio:hover,
 .buttons-portfolio:focus {
+color: var(--text-white);
 background-color: var(--logo-one);
 }
+
 
 /* текст блоков */
 
