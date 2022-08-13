@@ -165,13 +165,6 @@ background-color:  var(--dark-fon);
 }
 
 /* текст футера*/
-.footer-text {
-font-style: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-
-}
 
 /* адресс */
 .address {
@@ -188,6 +181,13 @@ color: var(--text-white)
 .mail-two:hover,:focus,
 .phone-two:hover,:focus {
   color: var(--logo-one);
+}
+
+.address, .mail-two, .phone-two {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 
